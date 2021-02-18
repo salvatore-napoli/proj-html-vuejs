@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.no-bullet-ul {
+  list-style-type: none;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.upper-navbar {
+  background-color: pink;
+  padding: 40px 40px 0 40px;
+  justify-content: space-between;
+}
+.upper-navbar-logo {
+  height: 50px;
+}
+.upper-navbar-logo img {
+  height: 100%;
+}
