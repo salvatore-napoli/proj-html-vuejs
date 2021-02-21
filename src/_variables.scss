@@ -1,9 +1,27 @@
 /* COLORS */
-$white: #ffffff;
+$white: #FFFFFF;
 $red-1: #DA5F60E6;
+$red-2: #E56768;
 $yellow-1: #E9D758;
 /* end COLORS */
 
 /* FONTS */
 $font-1: 'Fredoka One', cursive;
+$font-2: 'Source Sans Pro', sans-serif;
 /* end FONTS */
+
+/* IMAGES */
+$img-1: url('../img/theme_slider2_bg-1.jpg');
+/* end IMAGES */
+
+
+/* MIXINS */
+@mixin button-1 {
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	background-color: $yellow-1;
+	border-radius: 30px;
+	text-align: center;
+}
+/* end MIXINS */
