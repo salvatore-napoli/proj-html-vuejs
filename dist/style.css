@@ -66,47 +66,47 @@
 /* end IMAGES */
 /* MIXINS */
 /* end MIXINS */
-.navbar-header-container {
+#page-container .navbar-header-container {
   background-image: url("../img/theme_slider2_bg-1.jpg");
   background-size: cover;
   max-width: 100vw;
 }
-.navbar-header-container .bg-overlay {
+#page-container .navbar-header-container .bg-overlay {
   background-color: #DA5F60E6;
   /* Navbar superiore */
   /* end Navbar superiore */
   /* Jumbotron */
   /* end Jumbotron */
 }
-.navbar-header-container .bg-overlay .upper-navbar {
+#page-container .navbar-header-container .bg-overlay .upper-navbar {
   padding: 40px 40px 0 40px;
   justify-content: space-between;
 }
-.navbar-header-container .bg-overlay .upper-navbar-logo {
+#page-container .navbar-header-container .bg-overlay .upper-navbar-logo {
   height: 50px;
 }
-.navbar-header-container .bg-overlay .upper-navbar-logo img {
+#page-container .navbar-header-container .bg-overlay .upper-navbar-logo img {
   height: 100%;
 }
-.navbar-header-container .bg-overlay .upper-navbar-list {
+#page-container .navbar-header-container .bg-overlay .upper-navbar-list {
   align-items: center;
 }
-.navbar-header-container .bg-overlay .upper-navbar-list .menu {
+#page-container .navbar-header-container .bg-overlay .upper-navbar-list .menu {
   color: #FFFFFF;
   font-family: "Fredoka One", cursive;
 }
-.navbar-header-container .bg-overlay .upper-navbar-list .menu-item:first-child {
+#page-container .navbar-header-container .bg-overlay .upper-navbar-list .menu-item:first-child {
   color: #E9D758;
 }
-.navbar-header-container .bg-overlay .upper-navbar-list .menu-item {
+#page-container .navbar-header-container .bg-overlay .upper-navbar-list .menu-item {
   padding-right: 30px;
   font-size: 14px;
 }
-.navbar-header-container .bg-overlay .upper-navbar-list .menu-item .dropdown-icon {
+#page-container .navbar-header-container .bg-overlay .upper-navbar-list .menu-item .dropdown-icon {
   font-size: 0.5em;
   padding-left: 5px;
 }
-.navbar-header-container .bg-overlay .upper-navbar-list .view-courses {
+#page-container .navbar-header-container .bg-overlay .upper-navbar-list .view-courses {
   background-color: #E9D758;
   font-family: "Fredoka One", cursive;
   border-radius: 30px;
@@ -114,11 +114,11 @@
   font-size: 15px;
   padding: 18px 37px;
 }
-.navbar-header-container .bg-overlay .jumbotron {
+#page-container .navbar-header-container .bg-overlay .jumbotron {
   margin-top: 80px;
   position: relative;
 }
-.navbar-header-container .bg-overlay .jumbotron-quickicons {
+#page-container .navbar-header-container .bg-overlay .jumbotron-quickicons {
   background-color: #E9D758;
   color: #FFFFFF;
   flex-direction: column;
@@ -130,22 +130,22 @@
   left: -2px;
   transform: translate(0, 50%);
 }
-.navbar-header-container .bg-overlay .jumbotron-quickicons .quickicon {
+#page-container .navbar-header-container .bg-overlay .jumbotron-quickicons .quickicon {
   padding: 10px;
 }
-.navbar-header-container .bg-overlay .jumbotron-main {
+#page-container .navbar-header-container .bg-overlay .jumbotron-main {
   width: 500px;
 }
-.navbar-header-container .bg-overlay .jumbotron-main .title {
+#page-container .navbar-header-container .bg-overlay .jumbotron-main .title {
   color: #FFFFFF;
   padding-bottom: 30px;
 }
-.navbar-header-container .bg-overlay .jumbotron-main .description {
+#page-container .navbar-header-container .bg-overlay .jumbotron-main .description {
   color: #FFFFFF;
   line-height: 25px;
   padding-bottom: 50px;
 }
-.navbar-header-container .bg-overlay .jumbotron-mainbtns-search {
+#page-container .navbar-header-container .bg-overlay .jumbotron-mainbtns-search {
   background-color: #E9D758;
   font-family: "Fredoka One", cursive;
   border-radius: 30px;
@@ -154,7 +154,7 @@
   font-size: 12px;
   padding: 23px 53px;
 }
-.navbar-header-container .bg-overlay .jumbotron-mainbtns-apply {
+#page-container .navbar-header-container .bg-overlay .jumbotron-mainbtns-apply {
   background-color: #FFFFFF;
   font-family: "Fredoka One", cursive;
   color: #20AD96;
@@ -162,17 +162,16 @@
   border-radius: 30px;
   font-size: 12px;
 }
-.navbar-header-container .bg-overlay .jumbotron-mainbtns-icon {
+#page-container .navbar-header-container .bg-overlay .jumbotron-mainbtns-icon {
   padding-right: 5px;
 }
-.navbar-header-container .bg-overlay .bg-extension-container .bg-extension {
+#page-container .navbar-header-container .bg-overlay .bg-extension-container .bg-extension {
   background-image: url("../img/wave-1.png");
   margin-top: 80px;
   width: 2116px;
   height: 133px;
 }
-
-main {
+#page-container main {
   /* Sezione tipi di corsi */
   /* end Sezione tipi di corsi */
   /* Sezione facoltà disponibili */
@@ -190,14 +189,14 @@ main {
   /* Sezione partners */
   /* end Sezione partners */
 }
-main .course-types {
+#page-container main .course-types {
   background-image: url("../img/home-background.png");
   background-size: 100% 100%;
   position: relative;
   padding-top: 100px;
   align-items: center;
 }
-main .course-types .speech-bubble {
+#page-container main .course-types .speech-bubble {
   color: #FFFFFFCC;
   font-family: "Source Sans Pro", sans-serif;
   position: absolute;
@@ -210,7 +209,7 @@ main .course-types .speech-bubble {
   padding: 2px 15px;
   font-size: 13px;
 }
-main .course-types .speech-bubble:after {
+#page-container main .course-types .speech-bubble:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -223,26 +222,26 @@ main .course-types .speech-bubble:after {
   border-bottom: 0;
   margin-bottom: -7px;
 }
-main .course-types-text {
+#page-container main .course-types-text {
   color: #3D404F;
   width: 600px;
   padding-right: 50px;
 }
-main .course-types-text .icon-img {
+#page-container main .course-types-text .icon-img {
   height: 50px;
   margin-bottom: 20px;
 }
-main .course-types-text .icon-img img {
+#page-container main .course-types-text .icon-img img {
   height: 100%;
 }
-main .course-types-text .title {
+#page-container main .course-types-text .title {
   padding-bottom: 50px;
 }
-main .course-types-text .description {
+#page-container main .course-types-text .description {
   padding-bottom: 60px;
   font-size: 14px;
 }
-main .course-types-text .browse-btn {
+#page-container main .course-types-text .browse-btn {
   background-color: #E9D758;
   font-family: "Fredoka One", cursive;
   border-radius: 30px;
@@ -250,31 +249,31 @@ main .course-types-text .browse-btn {
   font-size: 12px;
   padding: 23px 60px;
 }
-main .course-types .illustration {
+#page-container main .course-types .illustration {
   width: 450px;
   height: 250px;
 }
-main .course-types .illustration img {
+#page-container main .course-types .illustration img {
   height: 100%;
 }
-main .faculties {
+#page-container main .faculties {
   padding-top: 200px;
   padding-bottom: 230px;
 }
-main .faculties-header {
+#page-container main .faculties-header {
   padding-bottom: 50px;
 }
-main .faculties-header .title {
+#page-container main .faculties-header .title {
   padding-bottom: 30px;
 }
-main .faculties-header .description-container .description {
+#page-container main .faculties-header .description-container .description {
   color: #3D404F;
   width: 350px;
 }
-main .faculties-list {
+#page-container main .faculties-list {
   box-shadow: 0px 0px 10px #ECECEE;
 }
-main .faculties-list .faculty {
+#page-container main .faculties-list .faculty {
   color: #20AD96;
   border: 1px solid #EAEAEA;
   width: 200px;
@@ -284,15 +283,15 @@ main .faculties-list .faculty {
   flex-direction: column;
   align-items: center;
 }
-main .faculties-list .faculty:first-child {
+#page-container main .faculties-list .faculty:first-child {
   background-color: #20AD96;
   color: #FFFFFF;
   position: relative;
 }
-main .faculties-list .faculty:first-child .faculty-img {
+#page-container main .faculties-list .faculty:first-child .faculty-img {
   filter: brightness(0) invert(1);
 }
-main .faculties-list .faculty:first-child:after {
+#page-container main .faculties-list .faculty:first-child:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -305,36 +304,36 @@ main .faculties-list .faculty:first-child:after {
   border-bottom: 0;
   margin-bottom: -15px;
 }
-main .faculties-list .faculty-img {
+#page-container main .faculties-list .faculty-img {
   height: 60px;
   margin-bottom: 15px;
 }
-main .faculties-list .faculty-img img {
+#page-container main .faculties-list .faculty-img img {
   height: 100%;
 }
-main .faculties-active {
+#page-container main .faculties-active {
   padding-top: 80px;
   align-items: center;
 }
-main .faculties-active-img {
+#page-container main .faculties-active-img {
   margin-right: 100px;
   height: 280px;
 }
-main .faculties-active-img img {
+#page-container main .faculties-active-img img {
   height: 100%;
 }
-main .faculties-active-text {
+#page-container main .faculties-active-text {
   width: 480px;
 }
-main .faculties-active-text .title {
+#page-container main .faculties-active-text .title {
   padding-bottom: 30px;
 }
-main .faculties-active-text .description {
+#page-container main .faculties-active-text .description {
   font-size: 14px;
   line-height: 25px;
   padding-bottom: 50px;
 }
-main .faculties-active-text .read-more {
+#page-container main .faculties-active-text .read-more {
   background-color: #20AD96;
   color: #FFFFFF;
   font-family: "Fredoka One", cursive;
@@ -343,14 +342,14 @@ main .faculties-active-text .read-more {
   padding: 25px 40px;
   box-shadow: 0px 0px 15px #CCCCCC;
 }
-main .year-section {
+#page-container main .year-section {
   background-color: #20AD96;
   padding: 60px 0 90px;
   position: relative;
   flex-direction: column;
   align-items: center;
 }
-main .year-section .bg-extension-top {
+#page-container main .year-section .bg-extension-top {
   width: 100%;
   overflow-x: hidden;
   position: absolute;
@@ -358,74 +357,74 @@ main .year-section .bg-extension-top {
   height: 200px;
   top: -186px;
 }
-main .year-section .year {
+#page-container main .year-section .year {
   margin-bottom: 100px;
 }
-main .year-section .year-img {
+#page-container main .year-section .year-img {
   height: 60px;
   margin-bottom: 20px;
 }
-main .year-section .year-img img {
+#page-container main .year-section .year-img img {
   height: 100%;
 }
-main .year-section .year .title {
+#page-container main .year-section .year .title {
   color: #FFFFFF;
   background-color: #DB2A2C;
   margin-bottom: 100px;
 }
-main .year-section .timeline {
+#page-container main .year-section .timeline {
   position: relative;
   padding-bottom: 100px;
 }
-main .year-section .timeline-item {
+#page-container main .year-section .timeline-item {
   width: 370px;
   position: absolute;
 }
-main .year-section .timeline-item-title {
+#page-container main .year-section .timeline-item-title {
   font-family: "Fredoka One", cursive;
   font-weight: normal;
   color: #FFFFFF;
   padding-bottom: 20px;
 }
-main .year-section .timeline-item .description {
+#page-container main .year-section .timeline-item .description {
   color: #FFFFFFCC;
 }
-main .year-section .timeline .item-1 {
+#page-container main .year-section .timeline .item-1 {
   bottom: 0;
   left: 8px;
 }
-main .year-section .timeline .item-2 {
+#page-container main .year-section .timeline .item-2 {
   top: -110px;
   left: 260px;
 }
-main .year-section .timeline .item-3 {
+#page-container main .year-section .timeline .item-3 {
   bottom: 0;
   right: 252px;
 }
-main .year-section .timeline .item-4 {
+#page-container main .year-section .timeline .item-4 {
   top: -110px;
   right: 15px;
 }
-main .year-section .events {
+#page-container main .year-section .events {
   padding-top: 80px;
   flex-direction: column;
   align-items: center;
 }
-main .year-section .events-img {
+#page-container main .year-section .events-img {
   height: 60px;
   margin-bottom: 20px;
 }
-main .year-section .events-img img {
+#page-container main .year-section .events-img img {
   height: 100%;
 }
-main .year-section .events .title {
+#page-container main .year-section .events .title {
   color: #FFFFFF;
   padding-bottom: 50px;
 }
-main .year-section .events-list {
+#page-container main .year-section .events-list {
   padding-bottom: 80px;
 }
-main .year-section .events-list .event {
+#page-container main .year-section .events-list .event {
   background-color: #FFFFFF;
   flex-direction: column;
   align-items: center;
@@ -435,22 +434,22 @@ main .year-section .events-list .event {
   margin-right: 30px;
   position: relative;
 }
-main .year-section .events-list .event-title {
+#page-container main .year-section .events-list .event-title {
   font-family: "Fredoka One", cursive;
   font-weight: normal;
   font-size: 28px;
   padding-bottom: 10px;
 }
-main .year-section .events-list .event-date {
+#page-container main .year-section .events-list .event-date {
   font-family: "Source Sans Pro", sans-serif;
   color: #8B8B8A;
   font-size: 14px;
   padding-bottom: 10px;
 }
-main .year-section .events-list .event .description {
+#page-container main .year-section .events-list .event .description {
   width: 90%;
 }
-main .year-section .events-list .event .find-more {
+#page-container main .year-section .events-list .event .find-more {
   background-color: #20AD96;
   color: #FFFFFF;
   font-family: "Fredoka One", cursive;
@@ -462,7 +461,7 @@ main .year-section .events-list .event .find-more {
   left: calc((370px - 130px) / 2);
   box-shadow: 0 0 10px #555555;
 }
-main .year-section .events .view-events {
+#page-container main .year-section .events .view-events {
   background-color: #E9D758;
   font-family: "Fredoka One", cursive;
   border-radius: 30px;
@@ -471,7 +470,7 @@ main .year-section .events .view-events {
   font-family: "Fredoka One", cursive;
   font-size: 14px;
 }
-main .year-section .bg-extension-bottom {
+#page-container main .year-section .bg-extension-bottom {
   width: 100%;
   overflow-x: hidden;
   position: absolute;
@@ -479,13 +478,13 @@ main .year-section .bg-extension-bottom {
   height: 181px;
   bottom: -180px;
 }
-main .latest-courses {
+#page-container main .latest-courses {
   padding: 150px 0 150px;
 }
-main .latest-courses-content .title {
+#page-container main .latest-courses-content .title {
   padding-bottom: 50px;
 }
-main .latest-courses-content .list .course {
+#page-container main .latest-courses-content .list .course {
   border-radius: 5px;
   box-shadow: 0px 0px 10px #ECECEE;
   flex-direction: column;
@@ -495,31 +494,31 @@ main .latest-courses-content .list .course {
   margin-right: 30px;
   position: relative;
 }
-main .latest-courses-content .list .course-img {
+#page-container main .latest-courses-content .list .course-img {
   height: 70px;
   margin-bottom: 30px;
 }
-main .latest-courses-content .list .course-img img {
+#page-container main .latest-courses-content .list .course-img img {
   height: 100%;
 }
-main .latest-courses-content .list .course-title {
+#page-container main .latest-courses-content .list .course-title {
   font-family: "Fredoka One", cursive;
   font-weight: normal;
   padding-bottom: 15px;
 }
-main .latest-courses-content .list .course-teacher {
+#page-container main .latest-courses-content .list .course-teacher {
   font-family: "Source Sans Pro", sans-serif;
   color: #5C5E6C;
   font-size: 15px;
   padding-bottom: 10px;
 }
-main .latest-courses-content .list .course-price {
+#page-container main .latest-courses-content .list .course-price {
   font-family: "Source Sans Pro", sans-serif;
   color: #5C5E6C;
   font-size: 15px;
   padding-bottom: 20px;
 }
-main .latest-courses-content .list .course-view {
+#page-container main .latest-courses-content .list .course-view {
   background-color: #20AD96;
   color: #FFFFFF;
   font-family: "Fredoka One", cursive;
@@ -533,29 +532,29 @@ main .latest-courses-content .list .course-view {
   left: calc((270px - 150px) / 2);
   box-shadow: 0 0 3px #555555;
 }
-main .exam-method {
+#page-container main .exam-method {
   align-items: center;
   padding-bottom: 100px;
 }
-main .exam-method-text {
+#page-container main .exam-method-text {
   width: 565px;
   padding-right: 120px;
 }
-main .exam-method-text .img {
+#page-container main .exam-method-text .img {
   height: 60px;
   margin-bottom: 20px;
 }
-main .exam-method-text .img img {
+#page-container main .exam-method-text .img img {
   height: 100%;
 }
-main .exam-method-text .title {
+#page-container main .exam-method-text .title {
   padding-bottom: 50px;
 }
-main .exam-method-text .description {
+#page-container main .exam-method-text .description {
   color: #3D404F;
   padding-bottom: 50px;
 }
-main .exam-method-text .method-discover {
+#page-container main .exam-method-text .method-discover {
   background-color: #20AD96;
   color: #FFFFFF;
   font-family: "Fredoka One", cursive;
@@ -564,42 +563,42 @@ main .exam-method-text .method-discover {
   padding: 25px 55px;
   box-shadow: 0 0 5px #555555;
 }
-main .exam-method-img {
+#page-container main .exam-method-img {
   height: 400px;
 }
-main .exam-method-img img {
+#page-container main .exam-method-img img {
   height: 100%;
 }
-main .taxes {
+#page-container main .taxes {
   align-items: center;
   padding-bottom: 80px;
 }
-main .taxes-img {
+#page-container main .taxes-img {
   height: 400px;
   margin-right: 60px;
 }
-main .taxes-img img {
+#page-container main .taxes-img img {
   height: 100%;
 }
-main .taxes-text {
+#page-container main .taxes-text {
   width: 500px;
 }
-main .taxes-text .img {
+#page-container main .taxes-text .img {
   height: 60px;
   margin-bottom: 20px;
 }
-main .taxes-text .img img {
+#page-container main .taxes-text .img img {
   height: 100%;
 }
-main .taxes-text .title {
+#page-container main .taxes-text .title {
   padding-bottom: 50px;
 }
-main .taxes-text .description {
+#page-container main .taxes-text .description {
   color: #3D404F;
   padding-bottom: 50px;
   width: 430px;
 }
-main .taxes-text .fees-list {
+#page-container main .taxes-text .fees-list {
   background-color: #20AD96;
   color: #FFFFFF;
   font-family: "Fredoka One", cursive;
@@ -609,35 +608,35 @@ main .taxes-text .fees-list {
   line-height: 60px;
   box-shadow: 0 0 5px #555555;
 }
-main .newsletter {
+#page-container main .newsletter {
   background-color: #20AD96;
   height: 200px;
   align-items: center;
 }
-main .newsletter .title {
+#page-container main .newsletter .title {
   padding-right: 130px;
   color: #FFFFFF;
   font-size: 39px;
 }
-main .newsletter-subscribe .insert-email {
+#page-container main .newsletter-subscribe .insert-email {
   width: 500px;
   height: 75px;
   border-radius: 30px;
   border: none;
 }
-main .newsletter-subscribe .insert-email::-moz-placeholder {
+#page-container main .newsletter-subscribe .insert-email::-moz-placeholder {
   font-family: "Source Sans Pro", sans-serif;
   padding-left: 25px;
 }
-main .newsletter-subscribe .insert-email:-ms-input-placeholder {
+#page-container main .newsletter-subscribe .insert-email:-ms-input-placeholder {
   font-family: "Source Sans Pro", sans-serif;
   padding-left: 25px;
 }
-main .newsletter-subscribe .insert-email::placeholder {
+#page-container main .newsletter-subscribe .insert-email::placeholder {
   font-family: "Source Sans Pro", sans-serif;
   padding-left: 25px;
 }
-main .newsletter-subscribe .send-email {
+#page-container main .newsletter-subscribe .send-email {
   background-color: #E9D758;
   color: #FFFFFF;
   width: 75px;
@@ -648,28 +647,28 @@ main .newsletter-subscribe .send-email {
   transform: translate(-57px, 0);
   cursor: pointer;
 }
-main .partners {
+#page-container main .partners {
   padding-top: 70px;
   flex-direction: column;
   align-items: center;
 }
-main .partners .title {
+#page-container main .partners .title {
   padding-bottom: 40px;
 }
-main .partners .description {
+#page-container main .partners .description {
   color: #3D404F;
   width: 500px;
   padding-bottom: 30px;
 }
-main .partners-list .partner {
+#page-container main .partners-list .partner {
   height: 40px;
   padding-right: 50px;
   opacity: 0.3;
 }
-main .partners-list .partner img {
+#page-container main .partners-list .partner img {
   height: 100%;
 }
-main .partners-bg {
+#page-container main .partners-bg {
   background-color: #F7F8FA;
   background-image: url("../img/background-wave3.png");
   background-repeat: no-repeat;
