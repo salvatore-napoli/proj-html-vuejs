@@ -67,12 +67,9 @@ $img-3: url('../img/home-background.png');
 
 /* MIXINS */
 @mixin button-1 {
-	width: 180px;
-	height: 50px;
-	line-height: 50px;
 	background-color: $bg-yellow-1;
+	font-family: $font-1;
 	border-radius: 30px;
-	text-align: center;
 }
 
 @mixin button-2 {
@@ -83,10 +80,16 @@ $img-3: url('../img/home-background.png');
 	border-radius: 30px;
 }
 
-@mixin h2-style-1 {
-	font-size: 45px;
+@mixin title-style-1 {
+	color: $text-black-2;
 	font-family: $font-1;
+	font-size: 45px;
 	font-weight: normal;
+}
+
+@mixin description-style-1 {
+	font-family: $font-2;
+	color: $text-grey-1;
 }
 
 @mixin speech-bubble-1 {

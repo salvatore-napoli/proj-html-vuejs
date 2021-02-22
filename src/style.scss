@@ -22,28 +22,33 @@
 				}
 			}
 
-			&-menu {
-				color: $text-white;
-				font-family: $font-1;
+			&-list {
+				align-items: center;
 
-				&-item:first-child {
-					color: $text-yellow-1;
-				}
+				.menu {
+					color: $text-white;
+					font-family: $font-1;
 
-				&-item:not(:last-child) {
-					padding-right: 30px;
-					font-size: 14px;
-					align-self: center;
+					&-item:first-child {
+						color: $text-yellow-1;
+					}
 
-					.dropdown-icon {
-						font-size: .5em;
-						padding-left: 5px;
+					&-item {
+						padding-right: 30px;
+						font-size: 14px;
+
+						.dropdown-icon {
+							font-size: .5em;
+							padding-left: 5px;
+						}
 					}
 				}
 
-				&-item:last-child {
+				.view-courses {
 					@include button-1;
+					color: $text-white;
 					font-size: 15px;
+					padding: 18px 37px;
 				}
 			}
 		}
@@ -51,12 +56,12 @@
 
 		/* Jumbotron */
 		.jumbotron {
-			color: $text-white;
 			margin-top: 80px;
 			position: relative;
 
 			&-quickicons {
 				background-color: $bg-yellow-1;
+				color: $text-white;
 				flex-direction: column;
 				border-radius: 5px;
 				max-height: 100px;
@@ -74,33 +79,34 @@
 			&-main {
 				width: 500px;
 
-				&-title {
-					@include h2-style-1;
+				.title {
+					color: $text-white;
 					padding-bottom: 30px;
 				}
 
-				&-description {
+				.description {
+					color: $text-white;
 					line-height: 25px;
 					padding-bottom: 50px;
-					font-family: $font-2;
 				}
 
 				&btns {
 
 					&-search {
 						@include button-1;
+						color: $text-white;
 						margin-right: 25px;
 						font-size: 12px;
+						padding: 23px 53px;
 					}
 
 					&-apply {
-						width: 210px;
-						height: 50px;
-						line-height: 50px;
 						background-color: $bg-white;
+						font-family: $font-1;
+						color: $text-cyan-1;
+						padding: 23px 53px;
 						border-radius: 30px;
 						font-size: 12px;
-						color: $text-cyan-1;
 					}
 
 					&-icon {
@@ -170,23 +176,19 @@ main {
 			}
 
 			.title {
-				@include h2-style-1;
 				padding-bottom: 50px;
 			}
 
 			.description {
-				font-family: $font-2;
-				padding-bottom: 30px;
+				padding-bottom: 60px;
 				font-size: 14px;
 			}
 
 			.browse-btn {
 				@include button-1;
-				width: 220px;
 				color: $text-white;
 				font-size: 12px;
-				font-family: $font-1;
-				font-weight: normal;
+				padding: 23px 60px;
 			}
 		}
 
@@ -209,18 +211,14 @@ main {
 		&-header {
 			padding-bottom: 50px;
 
-			&-title {
-				@include h2-style-1;
-				color: $text-black-2;
+			.title {
 				padding-bottom: 30px;
 			}
 
 			.description-container {
-				font-size: 14px;
-				font-family: $font-2;
 
 				.description {
-					font-weight: normal;
+					color: $text-black-2;
 					width: 350px;
 				}
 			}
@@ -285,14 +283,10 @@ main {
 				width: 480px;
 
 				.title {
-					@include h2-style-1;
-					color: $text-black-2;
 					padding-bottom: 30px;
 				}
 
 				.description {
-					font-family: $font-2;
-					color: $text-grey-1;
 					font-size: 14px;
 					line-height: 25px;
 					padding-bottom: 50px;
@@ -300,9 +294,7 @@ main {
 
 				.read-more {
 					@include button-2;
-					width: 150px;
-					height: 50px;
-					line-height: 50px;
+					padding: 25px 40px;
 					box-shadow: 0px 0px 15px #CCCCCC;
 				}
 			}
@@ -337,7 +329,6 @@ main {
 			}
 
 			.title {
-				@include h2-style-1;
 				color: $text-white;
 				background-color: #DB2A2C;
 				margin-bottom: 100px;
@@ -354,13 +345,12 @@ main {
 
 				&-title {
 					font-family: $font-1;
-					color: $text-white;
 					font-weight: normal;
+					color: $text-white;
 					padding-bottom: 20px;
 				}
 
-				&-description {
-					font-family: $font-2;
+				.description {
 					color: $text-white-1;
 				}
 			}
@@ -401,7 +391,6 @@ main {
 			}
 
 			.title {
-				@include h2-style-1;
 				color: $text-white;
 				padding-bottom: 50px;
 			}
@@ -421,9 +410,8 @@ main {
 
 					&-title {
 						font-family: $font-1;
-						font-size: 28px;
 						font-weight: normal;
-						color: $text-black-2;
+						font-size: 28px;
 						padding-bottom: 10px;
 					}
 
@@ -434,17 +422,13 @@ main {
 						padding-bottom: 10px;
 					}
 
-					&-description {
-						font-family: $font-2;
-						color: $text-grey-1;
+					.description {
 						width: 90%;
 					}
 
 					.find-more {
 						@include button-2;
-						width: 130px;
-						height: 40px;
-						line-height: 40px;
+						padding: 12px 30px;
 						position: absolute;
 						bottom: -20px;
 						left: calc((370px - 130px) / 2);
@@ -456,6 +440,7 @@ main {
 			.view-events {
 				@include button-1;
 				color: $text-white;
+				padding: 20px 40px;
 				font-family: $font-1;
 				font-size: 14px;
 			}
@@ -476,9 +461,6 @@ main {
 		&-content {
 
 			.title {
-				@include h2-style-1;
-				font-family: $font-1;
-				color: $text-black-2;
 				padding-bottom: 50px;
 			}
 
@@ -505,7 +487,6 @@ main {
 
 					&-title {
 						font-family: $font-1;
-						color: $text-black-2;
 						font-weight: normal;
 						padding-bottom: 15px;
 					}
@@ -559,23 +540,17 @@ main {
 			}
 
 			.title {
-				@include h2-style-1;
-				font-family: $font-1;
-				color: $text-black-2;
 				padding-bottom: 50px;
 			}
 
 			.description {
-				font-family: $font-2;
 				color: $text-black-2;
 				padding-bottom: 50px;
 			}
 
 			.method-discover {
 				@include button-2;
-				width: 250px;
-				height: 60px;
-				line-height: 60px;
+				padding: 25px 55px;
 				box-shadow: 0 0 5px #555555;
 			}
 		}
@@ -589,4 +564,50 @@ main {
 		}
 	}
 	/* end Sezione metodo d'esame */
+
+	/* Sezione tasse */
+	.taxes {
+		align-items: center;
+		padding-bottom: 50px;
+
+		&-img {
+			height: 400px;
+			margin-right: 60px;
+
+			img {
+				height: 100%;
+			}
+		}
+
+		&-text {
+			width: 500px;
+
+			.img {
+				height: 60px;
+				margin-bottom: 20px;
+
+				img {
+					height: 100%;
+				}
+			}
+
+			.title {
+				padding-bottom: 50px;
+			}
+
+			.description {
+				color: $text-black-2;
+				padding-bottom: 50px;
+				width: 430px;
+			}
+
+			.fees-list {
+				@include button-2;
+				padding: 25px 50px;
+				line-height: 60px;
+				box-shadow: 0 0 5px #555555;
+			}
+		}
+	}
+	/* end Sezione tasse */
 }

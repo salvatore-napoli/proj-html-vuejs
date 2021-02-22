@@ -44,6 +44,18 @@
   text-align: center;
 }
 
+.title {
+  color: #3D404F;
+  font-family: "Fredoka One", cursive;
+  font-size: 45px;
+  font-weight: normal;
+}
+
+.description {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #8B8B8A;
+}
+
 /* BACKGROUND COLORS */
 /* end BACKGROUND COLORS */
 /* TEXT COLORS */
@@ -80,38 +92,39 @@
 .navbar-header-container .bg-overlay .upper-navbar-logo img {
   height: 100%;
 }
-.navbar-header-container .bg-overlay .upper-navbar-menu {
+.navbar-header-container .bg-overlay .upper-navbar-list {
+  align-items: center;
+}
+.navbar-header-container .bg-overlay .upper-navbar-list .menu {
   color: #FFFFFF;
   font-family: "Fredoka One", cursive;
 }
-.navbar-header-container .bg-overlay .upper-navbar-menu-item:first-child {
+.navbar-header-container .bg-overlay .upper-navbar-list .menu-item:first-child {
   color: #E9D758;
 }
-.navbar-header-container .bg-overlay .upper-navbar-menu-item:not(:last-child) {
+.navbar-header-container .bg-overlay .upper-navbar-list .menu-item {
   padding-right: 30px;
   font-size: 14px;
-  align-self: center;
 }
-.navbar-header-container .bg-overlay .upper-navbar-menu-item:not(:last-child) .dropdown-icon {
+.navbar-header-container .bg-overlay .upper-navbar-list .menu-item .dropdown-icon {
   font-size: 0.5em;
   padding-left: 5px;
 }
-.navbar-header-container .bg-overlay .upper-navbar-menu-item:last-child {
-  width: 180px;
-  height: 50px;
-  line-height: 50px;
+.navbar-header-container .bg-overlay .upper-navbar-list .view-courses {
   background-color: #E9D758;
+  font-family: "Fredoka One", cursive;
   border-radius: 30px;
-  text-align: center;
+  color: #FFFFFF;
   font-size: 15px;
+  padding: 18px 37px;
 }
 .navbar-header-container .bg-overlay .jumbotron {
-  color: #FFFFFF;
   margin-top: 80px;
   position: relative;
 }
 .navbar-header-container .bg-overlay .jumbotron-quickicons {
   background-color: #E9D758;
+  color: #FFFFFF;
   flex-direction: column;
   border-radius: 5px;
   max-height: 100px;
@@ -127,35 +140,31 @@
 .navbar-header-container .bg-overlay .jumbotron-main {
   width: 500px;
 }
-.navbar-header-container .bg-overlay .jumbotron-main-title {
-  font-size: 45px;
-  font-family: "Fredoka One", cursive;
-  font-weight: normal;
+.navbar-header-container .bg-overlay .jumbotron-main .title {
+  color: #FFFFFF;
   padding-bottom: 30px;
 }
-.navbar-header-container .bg-overlay .jumbotron-main-description {
+.navbar-header-container .bg-overlay .jumbotron-main .description {
+  color: #FFFFFF;
   line-height: 25px;
   padding-bottom: 50px;
-  font-family: "Source Sans Pro", sans-serif;
 }
 .navbar-header-container .bg-overlay .jumbotron-mainbtns-search {
-  width: 180px;
-  height: 50px;
-  line-height: 50px;
   background-color: #E9D758;
+  font-family: "Fredoka One", cursive;
   border-radius: 30px;
-  text-align: center;
+  color: #FFFFFF;
   margin-right: 25px;
   font-size: 12px;
+  padding: 23px 53px;
 }
 .navbar-header-container .bg-overlay .jumbotron-mainbtns-apply {
-  width: 210px;
-  height: 50px;
-  line-height: 50px;
   background-color: #FFFFFF;
+  font-family: "Fredoka One", cursive;
+  color: #20AD96;
+  padding: 23px 53px;
   border-radius: 30px;
   font-size: 12px;
-  color: #20AD96;
 }
 .navbar-header-container .bg-overlay .jumbotron-mainbtns-icon {
   padding-right: 5px;
@@ -178,6 +187,8 @@ main {
   /* end Sezione ultimi corsi */
   /* Sezione metodo d'esame */
   /* end Sezione metodo d'esame */
+  /* Sezione tasse */
+  /* end Sezione tasse */
 }
 main .course-types {
   background-image: url("../img/home-background.png");
@@ -225,28 +236,19 @@ main .course-types-text .icon-img img {
   height: 100%;
 }
 main .course-types-text .title {
-  font-size: 45px;
-  font-family: "Fredoka One", cursive;
-  font-weight: normal;
   padding-bottom: 50px;
 }
 main .course-types-text .description {
-  font-family: "Source Sans Pro", sans-serif;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   font-size: 14px;
 }
 main .course-types-text .browse-btn {
-  width: 180px;
-  height: 50px;
-  line-height: 50px;
   background-color: #E9D758;
+  font-family: "Fredoka One", cursive;
   border-radius: 30px;
-  text-align: center;
-  width: 220px;
   color: #FFFFFF;
   font-size: 12px;
-  font-family: "Fredoka One", cursive;
-  font-weight: normal;
+  padding: 23px 60px;
 }
 main .course-types .illustration {
   width: 450px;
@@ -262,19 +264,11 @@ main .faculties {
 main .faculties-header {
   padding-bottom: 50px;
 }
-main .faculties-header-title {
-  font-size: 45px;
-  font-family: "Fredoka One", cursive;
-  font-weight: normal;
-  color: #3D404F;
+main .faculties-header .title {
   padding-bottom: 30px;
 }
-main .faculties-header .description-container {
-  font-size: 14px;
-  font-family: "Source Sans Pro", sans-serif;
-}
 main .faculties-header .description-container .description {
-  font-weight: normal;
+  color: #3D404F;
   width: 350px;
 }
 main .faculties-list {
@@ -333,15 +327,9 @@ main .faculties-active-text {
   width: 480px;
 }
 main .faculties-active-text .title {
-  font-size: 45px;
-  font-family: "Fredoka One", cursive;
-  font-weight: normal;
-  color: #3D404F;
   padding-bottom: 30px;
 }
 main .faculties-active-text .description {
-  font-family: "Source Sans Pro", sans-serif;
-  color: #8B8B8A;
   font-size: 14px;
   line-height: 25px;
   padding-bottom: 50px;
@@ -352,9 +340,7 @@ main .faculties-active-text .read-more {
   font-family: "Fredoka One", cursive;
   font-size: 14px;
   border-radius: 30px;
-  width: 150px;
-  height: 50px;
-  line-height: 50px;
+  padding: 25px 40px;
   box-shadow: 0px 0px 15px #CCCCCC;
 }
 main .year-section {
@@ -383,9 +369,6 @@ main .year-section .year-img img {
   height: 100%;
 }
 main .year-section .year .title {
-  font-size: 45px;
-  font-family: "Fredoka One", cursive;
-  font-weight: normal;
   color: #FFFFFF;
   background-color: #DB2A2C;
   margin-bottom: 100px;
@@ -400,12 +383,11 @@ main .year-section .timeline-item {
 }
 main .year-section .timeline-item-title {
   font-family: "Fredoka One", cursive;
-  color: #FFFFFF;
   font-weight: normal;
+  color: #FFFFFF;
   padding-bottom: 20px;
 }
-main .year-section .timeline-item-description {
-  font-family: "Source Sans Pro", sans-serif;
+main .year-section .timeline-item .description {
   color: #FFFFFFCC;
 }
 main .year-section .timeline .item-1 {
@@ -437,9 +419,6 @@ main .year-section .events-img img {
   height: 100%;
 }
 main .year-section .events .title {
-  font-size: 45px;
-  font-family: "Fredoka One", cursive;
-  font-weight: normal;
   color: #FFFFFF;
   padding-bottom: 50px;
 }
@@ -458,9 +437,8 @@ main .year-section .events-list .event {
 }
 main .year-section .events-list .event-title {
   font-family: "Fredoka One", cursive;
-  font-size: 28px;
   font-weight: normal;
-  color: #3D404F;
+  font-size: 28px;
   padding-bottom: 10px;
 }
 main .year-section .events-list .event-date {
@@ -469,9 +447,7 @@ main .year-section .events-list .event-date {
   font-size: 14px;
   padding-bottom: 10px;
 }
-main .year-section .events-list .event-description {
-  font-family: "Source Sans Pro", sans-serif;
-  color: #8B8B8A;
+main .year-section .events-list .event .description {
   width: 90%;
 }
 main .year-section .events-list .event .find-more {
@@ -480,22 +456,18 @@ main .year-section .events-list .event .find-more {
   font-family: "Fredoka One", cursive;
   font-size: 14px;
   border-radius: 30px;
-  width: 130px;
-  height: 40px;
-  line-height: 40px;
+  padding: 12px 30px;
   position: absolute;
   bottom: -20px;
   left: calc((370px - 130px) / 2);
   box-shadow: 0 0 10px #555555;
 }
 main .year-section .events .view-events {
-  width: 180px;
-  height: 50px;
-  line-height: 50px;
   background-color: #E9D758;
+  font-family: "Fredoka One", cursive;
   border-radius: 30px;
-  text-align: center;
   color: #FFFFFF;
+  padding: 20px 40px;
   font-family: "Fredoka One", cursive;
   font-size: 14px;
 }
@@ -511,11 +483,6 @@ main .latest-courses {
   padding: 150px 0 150px;
 }
 main .latest-courses-content .title {
-  font-size: 45px;
-  font-family: "Fredoka One", cursive;
-  font-weight: normal;
-  font-family: "Fredoka One", cursive;
-  color: #3D404F;
   padding-bottom: 50px;
 }
 main .latest-courses-content .list .course {
@@ -537,7 +504,6 @@ main .latest-courses-content .list .course-img img {
 }
 main .latest-courses-content .list .course-title {
   font-family: "Fredoka One", cursive;
-  color: #3D404F;
   font-weight: normal;
   padding-bottom: 15px;
 }
@@ -583,15 +549,9 @@ main .exam-method-text .img img {
   height: 100%;
 }
 main .exam-method-text .title {
-  font-size: 45px;
-  font-family: "Fredoka One", cursive;
-  font-weight: normal;
-  font-family: "Fredoka One", cursive;
-  color: #3D404F;
   padding-bottom: 50px;
 }
 main .exam-method-text .description {
-  font-family: "Source Sans Pro", sans-serif;
   color: #3D404F;
   padding-bottom: 50px;
 }
@@ -601,9 +561,7 @@ main .exam-method-text .method-discover {
   font-family: "Fredoka One", cursive;
   font-size: 14px;
   border-radius: 30px;
-  width: 250px;
-  height: 60px;
-  line-height: 60px;
+  padding: 25px 55px;
   box-shadow: 0 0 5px #555555;
 }
 main .exam-method-img {
@@ -611,4 +569,43 @@ main .exam-method-img {
 }
 main .exam-method-img img {
   height: 100%;
+}
+main .taxes {
+  align-items: center;
+  padding-bottom: 50px;
+}
+main .taxes-img {
+  height: 400px;
+  margin-right: 60px;
+}
+main .taxes-img img {
+  height: 100%;
+}
+main .taxes-text {
+  width: 500px;
+}
+main .taxes-text .img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+main .taxes-text .img img {
+  height: 100%;
+}
+main .taxes-text .title {
+  padding-bottom: 50px;
+}
+main .taxes-text .description {
+  color: #3D404F;
+  padding-bottom: 50px;
+  width: 430px;
+}
+main .taxes-text .fees-list {
+  background-color: #20AD96;
+  color: #FFFFFF;
+  font-family: "Fredoka One", cursive;
+  font-size: 14px;
+  border-radius: 30px;
+  padding: 25px 50px;
+  line-height: 60px;
+  box-shadow: 0 0 5px #555555;
 }

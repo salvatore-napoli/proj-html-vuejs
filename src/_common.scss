@@ -30,3 +30,11 @@
 .text-center {
 	text-align: center;
 }
+
+.title {
+	@include title-style-1;
+}
+
+.description {
+	@include description-style-1;
+}
