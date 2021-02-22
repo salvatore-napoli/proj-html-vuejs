@@ -187,6 +187,8 @@ main {
   /* end Sezione tasse */
   /* Sezione newsletter */
   /* end Sezione newsletter */
+  /* Sezione partners */
+  /* end Sezione partners */
 }
 main .course-types {
   background-image: url("../img/home-background.png");
@@ -615,7 +617,7 @@ main .newsletter {
 main .newsletter .title {
   padding-right: 130px;
   color: #FFFFFF;
-  font-size: 40px;
+  font-size: 39px;
 }
 main .newsletter-subscribe .insert-email {
   width: 500px;
@@ -645,4 +647,32 @@ main .newsletter-subscribe .send-email {
   font-size: 18px;
   transform: translate(-57px, 0);
   cursor: pointer;
+}
+main .partners {
+  padding-top: 70px;
+  flex-direction: column;
+  align-items: center;
+}
+main .partners .title {
+  padding-bottom: 40px;
+}
+main .partners .description {
+  color: #3D404F;
+  width: 500px;
+  padding-bottom: 30px;
+}
+main .partners-list .partner {
+  height: 40px;
+  padding-right: 50px;
+  opacity: 0.3;
+}
+main .partners-list .partner img {
+  height: 100%;
+}
+main .partners-bg {
+  background-color: #F7F8FA;
+  background-image: url("../img/background-wave3.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
 }
