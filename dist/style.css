@@ -155,7 +155,7 @@
   background-color: #FFFFFF;
   border-radius: 30px;
   font-size: 12px;
-  color: #E56768;
+  color: #20AD96;
 }
 .navbar-header-container .bg-overlay .jumbotron-mainbtns-icon {
   padding-right: 5px;
@@ -176,6 +176,8 @@ main {
   /* end Sezione timelapse anno */
   /* Sezione ultimi corsi */
   /* end Sezione ultimi corsi */
+  /* Sezione metodo d'esame */
+  /* end Sezione metodo d'esame */
 }
 main .course-types {
   background-image: url("../img/home-background.png");
@@ -279,7 +281,7 @@ main .faculties-list {
   box-shadow: 0px 0px 10px #ECECEE;
 }
 main .faculties-list .faculty {
-  color: #E56768;
+  color: #20AD96;
   border: 1px solid #EAEAEA;
   width: 200px;
   height: 150px;
@@ -289,7 +291,7 @@ main .faculties-list .faculty {
   align-items: center;
 }
 main .faculties-list .faculty:first-child {
-  background-color: #E56768;
+  background-color: #20AD96;
   color: #FFFFFF;
   position: relative;
 }
@@ -305,7 +307,7 @@ main .faculties-list .faculty:first-child:after {
   height: 0;
   margin-left: -20px;
   border: 15px solid transparent;
-  border-top-color: #E56768;
+  border-top-color: #20AD96;
   border-bottom: 0;
   margin-bottom: -15px;
 }
@@ -345,7 +347,7 @@ main .faculties-active-text .description {
   padding-bottom: 50px;
 }
 main .faculties-active-text .read-more {
-  background-color: #E56768;
+  background-color: #20AD96;
   color: #FFFFFF;
   font-family: "Fredoka One", cursive;
   font-size: 14px;
@@ -356,19 +358,19 @@ main .faculties-active-text .read-more {
   box-shadow: 0px 0px 15px #CCCCCC;
 }
 main .year-section {
-  background-color: #E56768;
+  background-color: #20AD96;
   padding: 60px 0 90px;
   position: relative;
   flex-direction: column;
   align-items: center;
 }
 main .year-section .bg-extension-top {
-  background-image: url("../svg/svg-0.svg");
-  background-repeat: no-repeat;
   width: 100%;
-  height: 200px;
+  overflow-x: hidden;
   position: absolute;
-  top: -187px;
+  filter: brightness(0) invert(55%) sepia(11%) saturate(2863%) hue-rotate(120deg) brightness(101%) contrast(81%);
+  height: 200px;
+  top: -186px;
 }
 main .year-section .year {
   margin-bottom: 100px;
@@ -473,7 +475,7 @@ main .year-section .events-list .event-description {
   width: 90%;
 }
 main .year-section .events-list .event .find-more {
-  background-color: #E56768;
+  background-color: #20AD96;
   font-family: "Fredoka One", cursive;
   font-size: 14px;
   color: #FFFFFF;
@@ -498,15 +500,15 @@ main .year-section .events .view-events {
   font-size: 14px;
 }
 main .year-section .bg-extension-bottom {
-  background-image: url("../svg/svg-1.svg");
-  background-repeat: no-repeat;
   width: 100%;
-  height: 78px;
+  overflow-x: hidden;
   position: absolute;
-  bottom: -77px;
+  filter: brightness(0) invert(55%) sepia(11%) saturate(2863%) hue-rotate(120deg) brightness(101%) contrast(81%);
+  height: 181px;
+  bottom: -180px;
 }
 main .latest-courses {
-  padding-top: 150px;
+  padding: 150px 0 150px;
 }
 main .latest-courses-content .title {
   font-size: 45px;
@@ -552,7 +554,7 @@ main .latest-courses-content .list .course-price {
   padding-bottom: 20px;
 }
 main .latest-courses-content .list .course-view {
-  background-color: #E56768;
+  background-color: #20AD96;
   font-family: "Fredoka One", cursive;
   color: #FFFFFF;
   font-size: 14px;

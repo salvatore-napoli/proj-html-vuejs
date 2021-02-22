@@ -4,8 +4,8 @@ $bg-white-1: #FFFFFF80;
 $bg-white-2: #FAFAFA;
 $bg-white-3: #F7F8FA;
 $bg-yellow-1: #E9D758;
-$bg-red-1: #E56768;
-$bg-red-2: #DA5F60E6;
+$bg-red-1: #DA5F60E6;
+$bg-cyan-1: #20AD96;
 $bg-blue-1: #3D404F;
 $bg-black: #000000;
 $bg-black-1: #454545;
@@ -17,12 +17,12 @@ $text-white: #FFFFFF;
 $text-white-1: #FFFFFFCC;
 $text-yellow-1: #E9D758;
 $text-green-1: #79B530;
-$text-red-1: #E56768;
 $text-grey-1: #8B8B8A;
 $text-grey-2: #7F7F7F;
 $text-grey-3: #74777B;
 $text-grey-4: #70727E;
 $text-grey-5: #5C5E6C;
+$text-cyan-1: #20AD96;
 $text-blue-1: #434959;
 $text-black: #000000;
 $text-black-1: #454545;
@@ -37,7 +37,7 @@ $text-black-6: #151515;
 $fill-white: #FFFFFF;
 $fill-green-1: #69DE89;
 $fill-green-2: #82B541;
-$fill-red-1: #E56768;
+$fill-cyan-1: #20AD96;
 $fill-black: #000000;
 /* end FILL COLORS */
 
@@ -47,9 +47,9 @@ $border-white-1: #ECECEE;
 $border-white-2: #E5ECEF;
 $border-white-3: #EAEAEA;
 $border-yellow-1: #E9D758;
+$border-cyan-1: #20AD96;
 $border-grey-1: #CCCCCC;
 $border-green-1: #79B530;
-$border-red-1: #E56768;
 $border-black: #000000;
 /* end BORDER COLORS */
 
@@ -62,8 +62,6 @@ $font-2: 'Source Sans Pro', sans-serif;
 $img-1: url('../img/theme_slider2_bg-1.jpg');
 $img-2: url('../img/wave-1.png');
 $img-3: url('../img/home-background.png');
-$img-4: url('../svg/svg-0.svg');
-$img-5: url('../svg/svg-1.svg');
 /* end IMAGES */
 
 
@@ -91,5 +89,12 @@ $img-5: url('../svg/svg-1.svg');
 	width: 0;
 	height: 0;
 	margin-left: -20px;
+}
+
+@mixin bg-extension-1 {
+	width: 100%;
+	overflow-x: hidden;
+	position: absolute;
+	filter: brightness(0) invert(55%) sepia(11%) saturate(2863%) hue-rotate(120deg) brightness(101%) contrast(81%); // BONUS?
 }
 /* end MIXINS */
