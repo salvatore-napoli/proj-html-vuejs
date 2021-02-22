@@ -568,7 +568,7 @@ main {
 	/* Sezione tasse */
 	.taxes {
 		align-items: center;
-		padding-bottom: 50px;
+		padding-bottom: 80px;
 
 		&-img {
 			height: 400px;
@@ -610,4 +610,46 @@ main {
 		}
 	}
 	/* end Sezione tasse */
+
+	/* Sezione newsletter */
+	.newsletter {
+		background-color: $bg-cyan-1;
+		height: 200px;
+		align-items: center;
+
+		.title {
+			padding-right: 130px;
+			color: $text-white;
+			font-size: 40px;
+		}
+
+		&-subscribe {
+
+			.insert-email {
+				width: 500px;
+				height: 75px;
+				border-radius: 30px;
+				border: none;
+
+				&::placeholder {
+					font-family: $font-2;
+					padding-left: 25px;
+				}
+			}
+
+			.send-email {
+				background-color: $bg-yellow-1;
+				color: $text-white;
+				width: 75px;
+				height: 75px;
+				line-height: 75px;
+				border-radius: 50%;
+				font-size: 18px;
+				transform: translate(-57px, 0);
+				cursor: pointer;
+			}
+		}
+	}
+	/* end Sezione newsletter */
+
 }

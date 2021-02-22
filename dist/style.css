@@ -36,10 +36,6 @@
   color: inherit;
 }
 
-.text-bold {
-  font-weight: bold;
-}
-
 .text-center {
   text-align: center;
 }
@@ -189,6 +185,8 @@ main {
   /* end Sezione metodo d'esame */
   /* Sezione tasse */
   /* end Sezione tasse */
+  /* Sezione newsletter */
+  /* end Sezione newsletter */
 }
 main .course-types {
   background-image: url("../img/home-background.png");
@@ -572,7 +570,7 @@ main .exam-method-img img {
 }
 main .taxes {
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 main .taxes-img {
   height: 400px;
@@ -608,4 +606,43 @@ main .taxes-text .fees-list {
   padding: 25px 50px;
   line-height: 60px;
   box-shadow: 0 0 5px #555555;
+}
+main .newsletter {
+  background-color: #20AD96;
+  height: 200px;
+  align-items: center;
+}
+main .newsletter .title {
+  padding-right: 130px;
+  color: #FFFFFF;
+  font-size: 40px;
+}
+main .newsletter-subscribe .insert-email {
+  width: 500px;
+  height: 75px;
+  border-radius: 30px;
+  border: none;
+}
+main .newsletter-subscribe .insert-email::-moz-placeholder {
+  font-family: "Source Sans Pro", sans-serif;
+  padding-left: 25px;
+}
+main .newsletter-subscribe .insert-email:-ms-input-placeholder {
+  font-family: "Source Sans Pro", sans-serif;
+  padding-left: 25px;
+}
+main .newsletter-subscribe .insert-email::placeholder {
+  font-family: "Source Sans Pro", sans-serif;
+  padding-left: 25px;
+}
+main .newsletter-subscribe .send-email {
+  background-color: #E9D758;
+  color: #FFFFFF;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  border-radius: 50%;
+  font-size: 18px;
+  transform: translate(-57px, 0);
+  cursor: pointer;
 }
