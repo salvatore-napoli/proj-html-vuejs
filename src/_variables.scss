@@ -75,6 +75,14 @@ $img-3: url('../img/home-background.png');
 	text-align: center;
 }
 
+@mixin button-2 {
+	background-color: $bg-cyan-1;
+	color: $text-white;
+	font-family: $font-1;
+	font-size: 14px;
+	border-radius: 30px;
+}
+
 @mixin h2-style-1 {
 	font-size: 45px;
 	font-family: $font-1;
