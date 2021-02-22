@@ -174,6 +174,8 @@ main {
   /* end Sezione facoltà disponibili */
   /* Sezione timelapse anno */
   /* end Sezione timelapse anno */
+  /* Sezione ultimi corsi */
+  /* end Sezione ultimi corsi */
 }
 main .course-types {
   background-image: url("../img/home-background.png");
@@ -355,7 +357,7 @@ main .faculties-active-text .read-more {
 }
 main .year-section {
   background-color: #E56768;
-  padding: 90px 0;
+  padding: 60px 0 90px;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -364,7 +366,7 @@ main .year-section .bg-extension-top {
   background-image: url("../svg/svg-0.svg");
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  height: 200px;
   position: absolute;
   top: -187px;
 }
@@ -443,9 +445,9 @@ main .year-section .events-list {
   padding-bottom: 80px;
 }
 main .year-section .events-list .event {
+  background-color: #FFFFFF;
   flex-direction: column;
   align-items: center;
-  background-color: #FFFFFF;
   width: 370px;
   height: 200px;
   border-radius: 15px;
@@ -499,7 +501,67 @@ main .year-section .bg-extension-bottom {
   background-image: url("../svg/svg-1.svg");
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  height: 78px;
   position: absolute;
-  bottom: -1388px;
+  bottom: -77px;
+}
+main .latest-courses {
+  padding-top: 150px;
+}
+main .latest-courses-content .title {
+  font-size: 45px;
+  font-family: "Fredoka One", cursive;
+  font-weight: normal;
+  font-family: "Fredoka One", cursive;
+  color: #3D404F;
+  padding-bottom: 50px;
+}
+main .latest-courses-content .list .course {
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #ECECEE;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  height: 270px;
+  margin-right: 30px;
+  position: relative;
+}
+main .latest-courses-content .list .course-img {
+  height: 70px;
+  margin-bottom: 30px;
+}
+main .latest-courses-content .list .course-img img {
+  height: 100%;
+}
+main .latest-courses-content .list .course-title {
+  font-family: "Fredoka One", cursive;
+  color: #3D404F;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
+main .latest-courses-content .list .course-teacher {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #5C5E6C;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+main .latest-courses-content .list .course-price {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #5C5E6C;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+main .latest-courses-content .list .course-view {
+  background-color: #E56768;
+  font-family: "Fredoka One", cursive;
+  color: #FFFFFF;
+  font-size: 14px;
+  width: 150px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: -20px;
+  left: calc((270px - 150px) / 2);
+  box-shadow: 0 0 3px #555555;
 }
