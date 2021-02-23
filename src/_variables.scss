@@ -109,4 +109,27 @@ $img-4: url('../img/background-wave3.png');
 	position: absolute;
 	filter: brightness(0) invert(55%) sepia(11%) saturate(2863%) hue-rotate(120deg) brightness(101%) contrast(81%); // BONUS?
 }
+
+@mixin input-style-1 {
+	border-radius: 50px;
+	border: none;
+
+	&::placeholder {
+		font-family: $font-2;
+		padding-left: 25px;
+	}
+}
+
+@mixin input-button-1 {
+	background-color: $bg-yellow-1;
+	color: $text-white;
+	width: 75px;
+	height: 75px;
+	line-height: 75px;
+	border-radius: 50%;
+	font-size: 18px;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
 /* end MIXINS */

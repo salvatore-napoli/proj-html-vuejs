@@ -41,8 +41,34 @@ new Vue ({
 				name: 'Purchase',
 				hasDropdown: false
 			}
+		],
+
+		eduprimeLinks: [
+			'Request a website',
+			'Browse Themes',
+			'Payment options',
+			'Support System',
+			'Checkout',
+			'Purchase Theme'
+		],
+
+		networkingLinks: [
+			'Purchase Theme',
+			'Our Benefits',
+			'Our Team',
+			'Our Services',
+			'Other Products',
+			'My Account'
+		],
+
+		categories: [
+			'ECONOMY',
+			'DESIGN',
+			'COACHING',
+			'BUSINESS',
+			'MEDICINE',
+			'LAW',
+			'FITNESS'
 		]
-
-
 	}
 });

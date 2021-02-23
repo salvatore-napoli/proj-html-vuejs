@@ -17,7 +17,7 @@
 				justify-content: space-between;
 
 				&-logo {
-					height: 50px;
+					height: 60px;
 
 					img {
 						height: 100%;
@@ -131,7 +131,7 @@
 		}
 	}
 
-	main {
+	.page-main {
 
 		/* Sezione tipi di corsi */
 		.course-types {
@@ -626,29 +626,16 @@
 			}
 
 			&-subscribe {
+				position: relative;
 
 				.insert-email {
 					width: 500px;
 					height: 75px;
-					border-radius: 30px;
-					border: none;
-
-					&::placeholder {
-						font-family: $font-2;
-						padding-left: 25px;
-					}
+					@include input-style-1;
 				}
 
 				.send-email {
-					background-color: $bg-yellow-1;
-					color: $text-white;
-					width: 75px;
-					height: 75px;
-					line-height: 75px;
-					border-radius: 50%;
-					font-size: 18px;
-					transform: translate(-57px, 0);
-					cursor: pointer;
+					@include input-button-1;
 				}
 			}
 		}
@@ -693,4 +680,134 @@
 		}
 		/* end Sezione partners */
 	}
+
+	/* Piè di pagina */
+	.footer {
+		background-color: $bg-cyan-1;
+		padding-top: 100px;
+
+		.website-description {
+			padding-right: 50px;
+
+			.logo {
+				height: 60px;
+				margin-bottom: 40px;
+
+				img {
+					height: 100%;
+				}
+			}
+
+			.description {
+				color: $text-white;
+				width: 350px;
+				padding-bottom: 30px;
+			}
+
+			.social-networks {
+
+				.social {
+					border: 2px solid $border-yellow-1;
+					color: $text-white;
+					width: 50px;
+					height: 50px;
+					line-height: 50px;
+					border-radius: 50%;
+					margin-right: 15px;
+				}
+			}
+		}
+
+		.eduprime-links {
+			color: $text-white;
+			padding-right: 70px;
+
+			&-title {
+				font-family: $font-1;
+				font-weight: normal;
+				padding-bottom: 30px;
+			}
+
+			&-list {
+
+				.list-item {
+					font-family: $font-2;
+					padding-bottom: 15px;
+				}
+			}
+		}
+
+		.networking-links {
+			color: $text-white;
+			padding-right: 100px;
+
+			&-title {
+				font-family: $font-1;
+				font-weight: normal;
+				padding-bottom: 30px;
+			}
+
+			&-list {
+
+				.list-item {
+					font-family: $font-2;
+					padding-bottom: 15px;
+				}
+			}
+		}
+
+		.search {
+			text-align: right;
+			width: 390px;
+
+			&-bar {
+				padding-bottom: 30px;
+				position: relative;
+
+				&-input {
+					width: 100%;
+					height: 75px;
+					@include input-style-1;
+				}
+
+				.start-search {
+					@include input-button-1;
+				}
+			}
+
+			&-categories {
+				flex-wrap: wrap;
+
+				&-title {
+					font-family: $font-1;
+					color: $text-white;
+					font-weight: normal;
+					padding-bottom: 20px;
+					font-size: 17px;
+				}
+
+				&-list {
+					flex-wrap: wrap;
+					justify-content: flex-end;
+					padding-bottom: 20px;
+
+					.category {
+						color: $text-white;
+						border: 1px solid $border-white;
+						font-family: $font-2;
+						font-size: 12px;
+						padding: 8px 15px;
+						margin: 0 0px 10px 10px;
+						border-radius: 20px;
+					}
+				}
+			}
+
+			.copyright {
+				font-family: $font-2;
+				color: $text-yellow-1;
+			}
+		}
+	}
+	/* end Piè di pagina */
 }

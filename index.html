@@ -70,7 +70,7 @@
 				</div>
 			</div>
 
-			<main>
+			<main class="page-main">
 				<!-- Sezione tipi di corsi -->
 				<section class="course-types container flex">
 					<div class="speech-bubble text-center">
@@ -449,12 +449,70 @@
 			</main>
 
 			<!-- Piè di pagina -->
-			<footer>
+			<footer class="footer container flex">
+				<div class="website-description">
+					<div class="logo">
+						<img src="img/theme_eduprime_logo.png" alt="logo">
+					</div>
+					<p class="description">EduPrime is the most versatile WordPress theme for educational purposes, showcasing universities, courses, secondary schools etc.</p>
+					<div class="social-networks flex">
+						<a href="#" class="no-decoration-text">
+							<div class="social text-center">
+								<i class="fab fa-facebook-f"></i>
+							</div>
+						</a>
 
+						<a href="#" class="no-decoration-text">
+							<div class="social text-center">
+								<i class="fab fa-twitter"></i>
+							</div>
+						</a>
 
+						<a href="#" class="no-decoration-text">
+							<div class="social text-center">
+								<i class="fab fa-instagram"></i>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="eduprime-links">
+					<h3 class="eduprime-links-title">Get EduPrime</h3>
+					<ul class="eduprime-links-list no-bullet-ul">
+						<li class="list-item" v-for="link in eduprimeLinks">
+							<a href="#" class="no-decoration-text">{{link}}</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="networking-links">
+					<h3 class="networking-links-title">Networking</h3>
+					<ul class="networking-links-list no-bullet-ul">
+						<li class="list-item" v-for="link in networkingLinks">
+							<a href="#" class="no-decoration-text">{{link}}</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="search">
+					<div class="search-bar flex">
+						<input type="text" placeholder="Search..." class="search-bar-input" />
+						<div class="start-search text-center">
+							<i class="fas fa-search"></i>
+						</div>
+					</div>
+
+					<div class="search-categories">
+						<h3 class="search-categories-title">Search categories</h3>
+						<div class="search-categories-list flex">
+							<a href="#" class="category no-decoration-text" v-for="category in categories">{{category}}</a>
+						</div>
+
+						<span class="copyright">ModelTheme. All rights reserved.</span>
+					</div>
+				</div>
 			</footer>
 			<!-- end Piè di pagina -->
-
 		</div>
 
 		<script src="js/script.js" charset="utf-8"></script>
