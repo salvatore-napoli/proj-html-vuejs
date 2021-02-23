@@ -67,8 +67,45 @@
 /* MIXINS */
 /* end MIXINS */
 #page-container {
-  /* Piè di pagina */
-  /* end Piè di pagina */
+  /* Elementi fixed */
+  /* Elementi fixed */
+  /* Footer */
+  /* end Footer */
+}
+#page-container .back-to-top {
+  background-color: #E9D758;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 100;
+}
+#page-container .theme-option {
+  background-color: #454545;
+  color: #8B8B8A;
+  font-family: "Source Sans Pro", sans-serif;
+  align-items: center;
+  padding: 10px 50px 10px 25px;
+  z-index: 100;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  font-size: 12px;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5);
+}
+#page-container .theme-option-img {
+  height: 16px;
+  margin-right: 5px;
+}
+#page-container .theme-option-img img {
+  height: 100%;
+}
+#page-container .option-1 {
+  bottom: 95px;
 }
 #page-container .navbar-header-container {
   background-image: url("../img/theme_slider2_bg-1.jpg");

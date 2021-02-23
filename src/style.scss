@@ -3,6 +3,51 @@
 
 
 #page-container {
+
+	/* Elementi fixed */
+	.back-to-top {
+		background-color: $bg-yellow-1;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		border-radius: 50%;
+		position: fixed;
+		bottom: 40px;
+		right: 40px;
+		z-index: 100;
+	}
+
+	.theme-option {
+		background-color: $bg-black-1;
+		color: $text-grey-1;
+		font-family: $font-2;
+		align-items: center;
+		padding: 10px 50px 10px 25px;
+		z-index: 100;
+		border-radius: 5px;
+		position: fixed;
+		bottom: 40px;
+		left: 40px;
+		font-size: 12px;
+		box-shadow: 0 15px 10px -10px rgba(0, 0, 0, .5);
+;
+
+		&-img {
+			height: 16px;
+			margin-right: 5px;
+
+			img {
+				height: 100%;
+			}
+		}
+	}
+
+	.option-1 {
+		bottom: 95px;
+	}
+	/* Elementi fixed */
+
+
 	.navbar-header-container {
 		background-image: $img-1;
 		background-size: cover;
@@ -10,6 +55,7 @@
 
 		.bg-overlay {
 			background-color: $bg-red-1;
+
 
 			/* Navbar superiore */
 			.upper-navbar {
@@ -55,6 +101,7 @@
 				}
 			}
 			/* end Navbar superiore */
+
 
 			/* Jumbotron */
 			.jumbotron {
@@ -118,6 +165,7 @@
 				}
 			}
 			/* end Jumbotron */
+
 
 			.bg-extension-container {
 
@@ -204,6 +252,7 @@
 			}
 		}
 		/* end Sezione tipi di corsi */
+
 
 		/* Sezione facoltà disponibili */
 		.faculties {
@@ -303,6 +352,7 @@
 			}
 		}
 		/* end Sezione facoltà disponibili */
+
 
 		/* Sezione timelapse anno */
 		.year-section {
@@ -456,6 +506,7 @@
 		}
 		/* end Sezione timelapse anno */
 
+
 		/* Sezione ultimi corsi */
 		.latest-courses {
 			padding: 150px 0 150px;
@@ -523,6 +574,7 @@
 		}
 		/* end Sezione ultimi corsi */
 
+
 		/* Sezione metodo d'esame */
 		.exam-method {
 			align-items: center;
@@ -566,6 +618,7 @@
 			}
 		}
 		/* end Sezione metodo d'esame */
+
 
 		/* Sezione tasse */
 		.taxes {
@@ -613,6 +666,7 @@
 		}
 		/* end Sezione tasse */
 
+
 		/* Sezione newsletter */
 		.newsletter {
 			background-color: $bg-cyan-1;
@@ -640,6 +694,7 @@
 			}
 		}
 		/* end Sezione newsletter */
+
 
 		/* Sezione partners */
 		.partners {
@@ -679,9 +734,11 @@
 			}
 		}
 		/* end Sezione partners */
+
 	}
 
-	/* Piè di pagina */
+
+	/* Footer */
 	.footer {
 		background-color: $bg-cyan-1;
 		padding-top: 100px;
@@ -809,5 +866,6 @@
 			}
 		}
 	}
-	/* end Piè di pagina */
+	/* end Footer */
+
 }
