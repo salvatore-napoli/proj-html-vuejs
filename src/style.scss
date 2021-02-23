@@ -97,6 +97,11 @@
 						color: $text-white;
 						font-size: 15px;
 						padding: 18px 37px;
+
+						&:hover {
+							background-color: $bg-white;
+							color: $text-cyan-1;
+						}
 					}
 				}
 			}
@@ -239,6 +244,11 @@
 					color: $text-white;
 					font-size: 12px;
 					padding: 23px 60px;
+					box-shadow: 0 0 10px #DDDDDD;
+
+					&:hover {
+						background-color: #DD3333;
+					}
 				}
 			}
 
@@ -495,6 +505,10 @@
 					padding: 20px 40px;
 					font-family: $font-1;
 					font-size: 14px;
+
+					&:hover {
+						background-color: $bg-red-1;
+					}
 				}
 			}
 
@@ -605,7 +619,7 @@
 				.method-discover {
 					@include button-2;
 					padding: 25px 55px;
-					box-shadow: 0 0 5px #555555;
+					box-shadow: 0 0 10px #DDDDDD;
 				}
 			}
 
@@ -660,7 +674,11 @@
 					@include button-2;
 					padding: 25px 50px;
 					line-height: 60px;
-					box-shadow: 0 0 5px #555555;
+					box-shadow: 0 0 10px #DDDDDD;
+
+					&:hover {
+						background-color: $bg-yellow-1;
+					}
 				}
 			}
 		}
@@ -718,6 +736,10 @@
 					height: 40px;
 					padding-right: 50px;
 					opacity: .3;
+
+					&:hover {
+						opacity: 1;
+					}
 
 					img {
 						height: 100%;

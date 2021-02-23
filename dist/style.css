@@ -155,6 +155,10 @@
   font-size: 15px;
   padding: 18px 37px;
 }
+#page-container .navbar-header-container .bg-overlay .upper-navbar-list .view-courses:hover {
+  background-color: #FFFFFF;
+  color: #20AD96;
+}
 #page-container .navbar-header-container .bg-overlay .jumbotron {
   margin-top: 80px;
   position: relative;
@@ -289,6 +293,10 @@
   color: #FFFFFF;
   font-size: 12px;
   padding: 23px 60px;
+  box-shadow: 0 0 10px #DDDDDD;
+}
+#page-container .page-main .course-types-text .browse-btn:hover {
+  background-color: #DD3333;
 }
 #page-container .page-main .course-types .illustration {
   width: 450px;
@@ -511,6 +519,9 @@
   font-family: "Fredoka One", cursive;
   font-size: 14px;
 }
+#page-container .page-main .year-section .events .view-events:hover {
+  background-color: #DA5F60E6;
+}
 #page-container .page-main .year-section .bg-extension-bottom {
   width: 100%;
   overflow-x: hidden;
@@ -602,7 +613,7 @@
   font-size: 14px;
   border-radius: 30px;
   padding: 25px 55px;
-  box-shadow: 0 0 5px #555555;
+  box-shadow: 0 0 10px #DDDDDD;
 }
 #page-container .page-main .exam-method-img {
   height: 400px;
@@ -647,7 +658,10 @@
   border-radius: 30px;
   padding: 25px 50px;
   line-height: 60px;
-  box-shadow: 0 0 5px #555555;
+  box-shadow: 0 0 10px #DDDDDD;
+}
+#page-container .page-main .taxes-text .fees-list:hover {
+  background-color: #E9D758;
 }
 #page-container .page-main .newsletter {
   background-color: #20AD96;
@@ -709,6 +723,9 @@
   height: 40px;
   padding-right: 50px;
   opacity: 0.3;
+}
+#page-container .page-main .partners-list .partner:hover {
+  opacity: 1;
 }
 #page-container .page-main .partners-list .partner img {
   height: 100%;
