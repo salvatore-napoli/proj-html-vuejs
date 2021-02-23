@@ -49,14 +49,14 @@
 
 					<!-- Navbar superiore -->
 					<nav class="upper-navbar flex">
-						<div class="upper-navbar-logo">
+						<div class="upper-navbar-logo pointer">
 							<img src="img/theme_eduprime_logo.png" alt="logo" class="full-height" />
 						</div>
 
 						<div class="upper-navbar-list flex">
 							<ul class="menu no-bullet-ul flex">
 								<li class="menu-item" v-for="link in navLinks">
-									{{link.name}}
+									<a href="#" class="no-decoration-text">{{link.name}}</a>
 									<i class="dropdown-icon fas fa-caret-down" v-if="link.hasDropdown"></i>
 								</li>
 							</ul>
@@ -69,9 +69,15 @@
 					<!-- Jumbotron -->
 					<header class="jumbotron container flex">
 						<div class="jumbotron-quickicons flex">
-							<i class="quickicon fas fa-shopping-cart"></i>
-							<i class="quickicon fas fa-book-open"></i>
-							<i class="quickicon far fa-life-ring"></i>
+							<a href="#" class="no-decoration-text">
+								<i class="quickicon fas fa-shopping-cart"></i>
+							</a>
+							<a href="#" class="no-decoration-text">
+								<i class="quickicon fas fa-book-open"></i>
+							</a>
+							<a href="#" class="no-decoration-text">
+								<i class="quickicon far fa-life-ring"></i>
+							</a>
 						</div>
 
 						<div class="jumbotron-main text-center">
@@ -91,6 +97,7 @@
 						</div>
 					</header>
 					<!-- end Jumbotron -->
+					
 					<div class="bg-extension-container container flex">
 						<div class="bg-extension"></div>
 					</div>
@@ -131,35 +138,35 @@
 					</div>
 
 					<div class="faculties-list container flex">
-						<div class="faculty container flex">
+						<div class="faculty container flex pointer">
 							<div class="faculty-img">
 								<img src="img/Gavel-v2.png" alt="legge" class="full-height" />
 							</div>
 							<span>Law Faculty</span>
 						</div>
 
-						<div class="faculty container flex">
+						<div class="faculty container flex pointer">
 							<div class="faculty-img">
 								<img src="img/Coins-tabs-v2.png" alt="economia" class="full-height" />
 							</div>
 							<span>Economy</span>
 						</div>
 
-						<div class="faculty container flex">
+						<div class="faculty container flex pointer">
 							<div class="faculty-img">
 								<img src="img/Medicine-tabs-v2.png" alt="medicina" class="full-height" />
 							</div>
 							<span>Medicine</span>
 						</div>
 
-						<div class="faculty container flex">
+						<div class="faculty container flex pointer">
 							<div class="faculty-img">
 								<img src="img/Computer-tabs-v2.png" alt="tecnologia" class="full-height" />
 							</div>
 							<span>Computer Science</span>
 						</div>
 
-						<div class="faculty container flex">
+						<div class="faculty container flex pointer">
 							<div class="faculty-img">
 								<img src="img/Palette-tabs-v2.png" alt="grafica" class="full-height" />
 							</div>
