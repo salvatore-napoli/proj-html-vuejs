@@ -53,6 +53,11 @@ $border-green-1: #79B530;
 $border-black: #000000;
 /* end BORDER COLORS */
 
+/* BOX SHADOWS */
+$box-shadow-1: 0 0 10px #555555;
+$box-shadow-2: 0 0 10px #DDDDDD;
+/* BOX SHADOWS */
+
 /* FONTS */
 $font-1: 'Fredoka One', cursive;
 $font-2: 'Source Sans Pro', sans-serif;
@@ -69,6 +74,7 @@ $img-4: url('../img/background-wave3.png');
 /* MIXINS */
 @mixin button-1 {
 	background-color: $bg-yellow-1;
+	color: $text-white;
 	font-family: $font-1;
 	border-radius: 30px;
 }
@@ -82,7 +88,6 @@ $img-4: url('../img/background-wave3.png');
 }
 
 @mixin title-style-1 {
-	color: $text-black-2;
 	font-family: $font-1;
 	font-size: 45px;
 	font-weight: normal;
@@ -90,7 +95,6 @@ $img-4: url('../img/background-wave3.png');
 
 @mixin description-style-1 {
 	font-family: $font-2;
-	color: $text-grey-1;
 }
 
 @mixin speech-bubble-1 {

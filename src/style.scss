@@ -35,10 +35,6 @@
 		&-img {
 			height: 16px;
 			margin-right: 5px;
-
-			img {
-				height: 100%;
-			}
 		}
 	}
 
@@ -64,10 +60,6 @@
 
 				&-logo {
 					height: 60px;
-
-					img {
-						height: 100%;
-					}
 				}
 
 				&-list {
@@ -94,7 +86,6 @@
 
 					.view-courses {
 						@include button-1;
-						color: $text-white;
 						font-size: 15px;
 						padding: 18px 37px;
 
@@ -119,7 +110,7 @@
 					flex-direction: column;
 					border-radius: 5px;
 					max-height: 100px;
-					box-shadow: 0 0 10px #555555;
+					box-shadow: $box-shadow-1;
 					font-size: 12px;
 					position: absolute;
 					left: -2px;
@@ -148,7 +139,6 @@
 
 						&-search {
 							@include button-1;
-							color: $text-white;
 							margin-right: 25px;
 							font-size: 12px;
 							padding: 23px 53px;
@@ -224,27 +214,23 @@
 				.icon-img {
 					height: 50px;
 					margin-bottom: 20px;
-
-					img {
-						height: 100%;
-					}
 				}
 
 				.title {
+					color: $text-black-2;
 					padding-bottom: 50px;
 				}
 
 				.description {
+					color: $text-black-2;
 					padding-bottom: 60px;
-					font-size: 14px;
 				}
 
 				.browse-btn {
 					@include button-1;
-					color: $text-white;
 					font-size: 12px;
 					padding: 23px 60px;
-					box-shadow: 0 0 10px #DDDDDD;
+					box-shadow: $box-shadow-2;
 
 					&:hover {
 						background-color: #DD3333;
@@ -255,10 +241,6 @@
 			.illustration {
 				width: 450px;
 				height: 250px;
-
-				img {
-					height: 100%;
-				}
 			}
 		}
 		/* end Sezione tipi di corsi */
@@ -273,6 +255,7 @@
 				padding-bottom: 50px;
 
 				.title {
+					color: $text-black-2;
 					padding-bottom: 30px;
 				}
 
@@ -319,10 +302,6 @@
 					&-img {
 						height: 60px;
 						margin-bottom: 15px;
-
-						img {
-							height: 100%;
-						}
 					}
 				}
 			}
@@ -334,21 +313,18 @@
 				&-img {
 					margin-right: 100px;
 					height: 280px;
-
-					img {
-						height: 100%;
-					}
 				}
 
 				&-text {
 					width: 480px;
 
 					.title {
+						color: $text-black-2;
 						padding-bottom: 30px;
 					}
 
 					.description {
-						font-size: 14px;
+						color: $text-grey-1;
 						line-height: 25px;
 						padding-bottom: 50px;
 					}
@@ -384,10 +360,6 @@
 				&-img {
 					height: 60px;
 					margin-bottom: 20px;
-
-					img {
-						height: 100%;
-					}
 				}
 
 				.title {
@@ -446,10 +418,6 @@
 				&-img {
 					height: 60px;
 					margin-bottom: 20px;
-
-					img {
-						height: 100%;
-					}
 				}
 
 				.title {
@@ -485,6 +453,7 @@
 						}
 
 						.description {
+							color: $text-grey-1;
 							width: 90%;
 						}
 
@@ -494,14 +463,13 @@
 							position: absolute;
 							bottom: -20px;
 							left: calc((370px - 130px) / 2);
-							box-shadow: 0 0 10px #555555;
+							box-shadow: $box-shadow-1;
 						}
 					}
 				}
 
 				.view-events {
 					@include button-1;
-					color: $text-white;
 					padding: 20px 40px;
 					font-family: $font-1;
 					font-size: 14px;
@@ -528,6 +496,7 @@
 			&-content {
 
 				.title {
+					color: $text-black-2;
 					padding-bottom: 50px;
 				}
 
@@ -546,10 +515,6 @@
 						&-img {
 							height: 70px;
 							margin-bottom: 30px;
-
-							img {
-								height: 100%;
-							}
 						}
 
 						&-title {
@@ -601,13 +566,10 @@
 				.img {
 					height: 60px;
 					margin-bottom: 20px;
-
-					img {
-						height: 100%;
-					}
 				}
 
 				.title {
+					color: $text-black-2;
 					padding-bottom: 50px;
 				}
 
@@ -619,16 +581,12 @@
 				.method-discover {
 					@include button-2;
 					padding: 25px 55px;
-					box-shadow: 0 0 10px #DDDDDD;
+					box-shadow: $box-shadow-2;
 				}
 			}
 
 			&-img {
 				height: 400px;
-
-				img {
-					height: 100%;
-				}
 			}
 		}
 		/* end Sezione metodo d'esame */
@@ -642,10 +600,6 @@
 			&-img {
 				height: 400px;
 				margin-right: 60px;
-
-				img {
-					height: 100%;
-				}
 			}
 
 			&-text {
@@ -654,13 +608,10 @@
 				.img {
 					height: 60px;
 					margin-bottom: 20px;
-
-					img {
-						height: 100%;
-					}
 				}
 
 				.title {
+					color: $text-black-2;
 					padding-bottom: 50px;
 				}
 
@@ -674,7 +625,7 @@
 					@include button-2;
 					padding: 25px 50px;
 					line-height: 60px;
-					box-shadow: 0 0 10px #DDDDDD;
+					box-shadow: $box-shadow-2;
 
 					&:hover {
 						background-color: $bg-yellow-1;
@@ -692,8 +643,8 @@
 			align-items: center;
 
 			.title {
-				padding-right: 130px;
 				color: $text-white;
+				padding-right: 130px;
 				font-size: 39px;
 			}
 
@@ -721,6 +672,7 @@
 			align-items: center;
 
 			.title {
+				color: $text-black-2;
 				padding-bottom: 40px;
 			}
 
@@ -739,10 +691,6 @@
 
 					&:hover {
 						opacity: 1;
-					}
-
-					img {
-						height: 100%;
 					}
 				}
 			}
@@ -771,10 +719,6 @@
 			.logo {
 				height: 60px;
 				margin-bottom: 40px;
-
-				img {
-					height: 100%;
-				}
 			}
 
 			.description {
